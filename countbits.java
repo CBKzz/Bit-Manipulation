@@ -23,3 +23,6 @@ public class Solution {
         return result;
     }
 }
+
+/*count 1s in a number*/
+use n&(n-1) to see if n is power of 2
