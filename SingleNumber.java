@@ -10,6 +10,7 @@ Given an array of integers, every element appears three times except for one. Fi
                 sum+=(nums[i]>>len)&1;
             }
             result|=(sum%3)<<len;
+            //result+=(sum%3)<<len;
         }
         return result;
     }
