@@ -25,4 +25,8 @@ public class Solution {
 }
 
 /*count 1s in a number*/
-use n&(n-1) to see if n is power of 2
+//use n&(n-1) to see if n is power of 2
+    public boolean isPowerOfTwo(int n) {
+        return n>0&&((n&(n-1))==0);
+    }
+n&(n-1) set the lowest 1 to 0
