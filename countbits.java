@@ -30,3 +30,24 @@ public class Solution {
         return n>0&&((n&(n-1))==0);
     }
 n&(n-1) set the lowest 1 to 0
+
+
+//check if a num is power of four
+return (num>0)&&((num&(num-1))==0)&&((num&(Integer.valueOf("2AAAAAAA",16)))==0);
+				/*
+				for a decimal x (base 10) you can use respectively for binary, octal, hex conversion
+
+                Integer.toString(x, 2),
+
+                Integer.toString(x, 8)
+
+                Integer.toString(x, 16).
+
+                then to convert it back to decimal, respectively from binary, octal, hex conversion
+
+                Integer.valueOf(binary_value, 2)
+
+                Integer.valueOf(octal_value, 8)
+
+                Integer.valueOf(hex_value, 16)
+                */
